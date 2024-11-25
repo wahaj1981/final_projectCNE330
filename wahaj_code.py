@@ -1,7 +1,7 @@
 import csv
 
 # File name for storing employee data
-FILE_NAME = 'employee_data.csv'
+FILE_NAME = r'C:\Users\Wahaj\Documents\GitHub\final_projectCNE330\employees.csv'
 
 # Load data from the CSV file
 def load_data():

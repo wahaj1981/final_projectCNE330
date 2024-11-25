@@ -30,12 +30,15 @@ def display_data(data):
 
 # Add a new employee
 def add_employee(data):
-    name = input("Enter employee name: ")
+    ID = input("Enter employee ID: ")
+    first_name = input("Enter employee first name: ")
+    last_name = input("Enter employee last name: ")
     hire_date = input("Enter hire date (YYYY-MM-DD): ")
     department = input("Enter department: ")
     performance = input("Enter performance score: ")
     salary = input("Enter salary: ")
-    data.append([name, hire_date, department, performance, salary])
+    data.append([ID, first_name, last_name, hire_date, department, performance, salary])
+    save_data(data)  # Save changes to the original file
     print("Employee added successfully!")
 
 # Remove an employee
@@ -55,11 +58,13 @@ def edit_employee(data):
     if 1 <= index < len(data):
         row = data[index]
         print(f"Editing Employee: {', '.join(row)}")
-        row[0] = input(f"Enter new name (current: {row[0]}): ") or row[0]
-        row[1] = input(f"Enter new hire date (current: {row[1]}): ") or row[1]
-        row[2] = input(f"Enter new department (current: {row[2]}): ") or row[2]
-        row[3] = input(f"Enter new performance (current: {row[3]}): ") or row[3]
-        row[4] = input(f"Enter new salary (current: {row[4]}): ") or row[4]
+        row[0] = input(f"Enter new employee ID (current: {row[0]}): ") or row[0]
+        row[1] = input(f"Enter new first name (current: {row[1]}): ") or row[1]
+        row[2] = input(f"Enter new last name (current: {row[2]}): ") or row[2]
+        row[3] = input(f"Enter new hire date (current: {row[3]}): ") or row[3]
+        row[4] = input(f"Enter new department (current: {row[4]}): ") or row[4]
+        row[5] = input(f"Enter new performance (current: {row[5]}): ") or row[5]
+        row[6] = input(f"Enter new salary (current: {row[6]}): ") or row[6]
         print("Employee updated successfully!")
     else:
         print("Invalid row number!")

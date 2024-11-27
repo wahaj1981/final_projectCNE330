@@ -12,4 +12,18 @@ The main functionalities include:
  5. Salary Calculations
  6. Exit
 
-5)Salary Calculations: Automatically calculate salary increases (10–15%) based on performance (1 to 5), hire date, and department. The updated salaries are saved to a new .csv file.
+  The Salary Increase Calculation will be based on the below formula:
+
+  Performance Score (1-5)
+
+1) If the performance is 5 the salary increase will be : 15%.
+
+2) If the performance is 4 the salary increase will be : 10%.
+
+3) If the performance is 3 the salary increase will be : 5%.
+
+4) If the performance is below 3 the salary increase will be zero.
+
+Also, the salary increase will consider the years of Service
+
+5) If the employee has 5 or more years of service, an additional 5% increase is added.

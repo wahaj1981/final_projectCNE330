@@ -7,9 +7,9 @@ The main functionalities include:
 
  1. Display Employee Data
  2. Add Employee
- 3. Edit Employee
- 4. Remove Employee
- 5. Salary Calculations
+ 3. Remove Employee
+ 4. Salary Calculations
+ 5. Display Updated Employee Data   *** After sales increase, the update for all the options above will be applied to the new employee's file.
  6. Exit
 
   The Salary Increase Calculation will be based on the below formula:

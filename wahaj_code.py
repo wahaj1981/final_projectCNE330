@@ -116,7 +116,7 @@ def main():
         print("2. Add Employee")
         print("3. Remove Employee")
         print("4. Salary Calculations")
-        print("5. Display Updated Employee Data","  *** After sales increase, the update for all the options above will be applied to the new employee's file.")
+        print("5. Display Updated Employee Data","  *** After salary increase, the update for all the options above will be applied to the new employee's file.")
         print("6. Exit")
         print("\033[0m")  # Reset text color to default
 

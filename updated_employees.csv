@@ -1,4 +1,4 @@
-ID,first name,last name,Year of hire,Department,Rank,Salary,New Salary,Salary Increase Percentage
+ID,first name,last name,Year of hire,Department,Performance,Salary,New Salary,Salary Increase Percentage
 1,GERALDINE,XIMENA,2011,IT,5,50000,60000.00,20.00%
 2,GIA,YAMILET,2011,IT,4,40000,46000.00,15.00%
 3,GIANNA,YARETZI,2011,IT,5,90000,108000.00,20.00%
@@ -184,4 +184,4 @@ ID,first name,last name,Year of hire,Department,Rank,Salary,New Salary,Salary In
 183,SOPHIA,JULIETTE,2024,Accounting,5,85000,97750.00,15.00%
 184,SOPHIE,KAITLYN,2024,Accounting,4,75000,82500.00,10.00%
 2012,mohammed,alobid,2024,Marketing,5,100000,115000.00,15.00%
-0065,Ashly,Smith,2024,Marketing,5,90000,103500.00,15.00%
+65,Ashly,Smith,2024,Marketing,5,90000,103500.00,15.00%

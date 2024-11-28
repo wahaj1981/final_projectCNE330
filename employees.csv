@@ -1,4 +1,4 @@
-ID,first name,last name,Year of hire,Department,Rank,Salary
+ID,first name,last name,Year of hire,Department,Performance,Salary
 1,GERALDINE,XIMENA,2011,IT,5,50000
 2,GIA,YAMILET,2011,IT,4,40000
 3,GIANNA,YARETZI,2011,IT,5,90000
@@ -184,4 +184,4 @@ ID,first name,last name,Year of hire,Department,Rank,Salary
 183,SOPHIA,JULIETTE,2024,Accounting,5,85000
 184,SOPHIE,KAITLYN,2024,Accounting,4,75000
 2012,mohammed,alobid,2024,Marketing,5,100000
-0065,Ashly,Smith,2024,Marketing,5,90000
+65,Ashly,Smith,2024,Marketing,5,90000
